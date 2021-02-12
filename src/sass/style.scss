@@ -7,11 +7,21 @@
 * {
 	font-family: 'Museo Sans Cyrl', sans-serif;
 }
+h1,h2,h3,h4,h5 {
+  margin: 0;
+}
 .container {
+  position: relative;
   max-width: 950px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 @import 'blocks/main';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'base/media';

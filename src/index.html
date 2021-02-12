@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"> -->
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.min.css">
   <title>Pulse</title>
 </head>
@@ -13,16 +15,17 @@
 <section class="main">
   <div class="container">
     <header class="header">
-    <a href="#" class="header__logo">
-    <img class="header__logo-img" src="img/logo.png" alt="logo">
-    </a>
-    <div class="header__official">
-      Официальный представитель
-      <span>Garmin, Polar, Suunto</span>
-    </div>
-      <div class="header__contacts">
+      <a href="#" class="header__logo">
+      <img class="header__logo-img" src="img/logo.png" alt="logo">
+      </a>
+        <div class="header__official">
+          Официальный представитель
+          <span>Garmin, Polar, Suunto</span>
+        </div>
+
+      <div class=" header__contacts ">
         <a class="header__phone" href="tel:+74999228974" >+7 (499) 922-89-74</a>
-        <button class="button">заказать звонок</button>
+        <button class="button button--call">заказать звонок</button>
       </div>
     </header>
     <div class="main__wrapper">
@@ -58,7 +61,7 @@
 </section>
   <section class="advantages">
     <div class="container">
-      <h2 class="advantages__title">НАШИ ПРЕИМУЩЕСТВА</h2>
+      <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
       <div class="advantages__icons">
           <div class="advantages__icon">
             <img class="advantages__icon-img"src="icons/cup.png" alt="">
@@ -80,5 +83,42 @@
       </div>
     </div>
   </section>
+
+  <section class="consultation">
+    <div class="container">
+      <h2 class="title title--center ">Получите бесплатную консультацию <br>по подбору пульсометра 
+      </h2>
+      <div class="consultation__descr">Просто заполните форму заявки <br>и мы перезвоним вам в течении 10 минут</div>
+      <form class="feed-form" action="#">
+          <input name="name" required placeholder="Ваше имя" type="text">
+          <input name="phone" required placeholder="Ваш телефон" type="number">
+          <input name="email" required placeholder="Ваш E-mail" type="email">
+          <button class="button button--submit">Заказать консультацию</button>
+      </form>
+    </div>
+  </section>
+    <section class="carousel">
+      <div class="container">
+        <div class="carousel__inner">
+          <div>
+            <img src="img/slider/slid1.jpg" alt="slide">
+          </div>
+          <div>
+            <img src="img/slider/slid2.jpg" alt="slide">
+          </div>
+          <div>
+            <img src="img/slider/slid3.jpg" alt="slide">
+          </div>
+        </div>
+          <!-- <button type="button" class="prev"><img src="icons/prev.png"> </button>
+          <button type="button" class="next"><img src="icons/next.png"> </button> -->
+      </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> -->
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 .main {
   min-height: 650px;
-  padding: 21px 0 93px 0;
+  padding: 21px 10px 93px 10px;
   background: url(../../img/bg/main.jpg) center center/cover no-repeat;
   &__wrapper {
     display: flex;
@@ -55,4 +55,7 @@
       text-decoration: underline;
     }
   }
+}
+.mobile__wrapper-sm {
+  display: none;
 }

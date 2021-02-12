@@ -2,12 +2,7 @@
   min-height: 473px;
   padding: 73px 0 65px 0;
   background-color: #F6F6F6;
-  &__title {
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    color: #0D0D0D;
-  }
+  
   &__icons {
     display: flex;
     justify-content: space-between;
@@ -20,7 +15,6 @@
     max-width: 269px;
     }
     &__head {
-      margin: 0;
       margin-top: 35px;
       font-weight: 700;
       font-size: 18px;
@@ -28,7 +22,6 @@
       color: #0D0D0D; 
     }
     &__sub {
-      margin: 0;
       margin-top: 20px;
       font-weight: 300;
       font-size: 14px;
